@@ -40,27 +40,26 @@
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	top:20%;
-	left: 0;
+	top: 4.5vw;
 }
 
 .header-text h1 {
 	font-size: 6.6vw;
 	font-weight: bold;
 	text-transform: uppercase;
-	line-height: 80px;
 	color: white;
 	font-family:"Calibri";
 }
 
 .header-btn-area {
-	margin-top: 10%;
-	float: left;
+	position: absolute;
+	left: 0;
+	top: 22vw;
 	display: inline;
 	width: 100%;
 	text-align: center;
 }
-.header-btn-area a{
+.header-btn-area a {
 	margin: 0% 1.5%;
 }
 .header-btn{

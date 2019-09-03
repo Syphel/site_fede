@@ -1,3 +1,51 @@
+
+/*--------------------*/
+/* NETWORK */
+/*--------------------*/
+.networkBar{
+	height:4rem; 
+	background-color: black;
+	padding:none;
+	margin:none;
+}
+
+.networkBar a{	
+	color:white ;
+}
+
+.networkBarElement a:hover{	
+	text-decoration: none;
+	border-bottom: 2px solid white;
+
+}
+
+.networkBarElement{
+	float: left;
+	display: block;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1.3rem;
+
+}
+
+.networkBarAnchor:hover,
+.networkBarAnchor:visited{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/*
+.networkBarElement2 {
+	float: right;
+	padding:1rem;
+	background: #3B5998;
+    color: white;
+}
+*/
+
+
 /*--------------------*/
 /* HEADER */
 /*--------------------*/

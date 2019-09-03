@@ -18,6 +18,8 @@
 	</head>
 
 	<body>
+		
+		<?php include("network.php"); ?>
 
 		<!-- SCROLL TOP BUTTON ? (Rex) -->
 
@@ -34,7 +36,11 @@
 			</div>	
 		</div>	
 
-		<?php include("navbar.html"); ?>
+		<?php include("navbar.php"); ?>
+
+
+
+		<?php include("footer.php"); ?>
 
 	</body>
 </html>

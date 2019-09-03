@@ -141,7 +141,7 @@ nav > ul li:hover .dropdown-content{
 }
 
 .dropdown-content a{
-	padding: 1vw;
+	padding: 0.5vw;
 	border-bottom: none;
 }
 

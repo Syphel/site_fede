@@ -18,7 +18,8 @@
 	</head>
 
 	<body>
-		
+		<?php include("../model/dao/connexionDAO.php"); ?>
+		<?php include("../controller/getConnexionData.php"); ?>
 		<?php include("network.php"); ?>
 
 		<!-- SCROLL TOP BUTTON ? (Rex) -->

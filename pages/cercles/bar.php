@@ -15,25 +15,24 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   		<script language="javascript" type="text/javascript" src="assets/js/functions.js"></script>
-
 	</head>
 
 	<body>
-		<?php include("../model/dao/connexionDAO.php"); ?>
-		<?php include("../controller/getConnexionData.php"); ?>
-		<?php include("network.php"); ?>
+		<?php include("../../model/dao/connexionDAO.php"); ?>
+		<?php include("../../controller/getConnexionData.php"); ?>
+		<?php include("../network.php"); ?>
 
 		<!-- SCROLL TOP BUTTON ? (Rex) -->
 
-		<?php include("navbar.php"); ?>
+		<?php include("../navbar.php"); ?>
 
 
 		<div class="container"> 
 
 		   		<?php
 
-		   		include ("../model/dao/cercleDAO.php");
-		   		$cercle=selectByName($bdd,'Fédérale');
+		   		include (".../model/dao/cercleDAO.php");
+		   		$cercle=selectByName($bdd,'bar');
 
 				?>
 
@@ -57,7 +56,7 @@
 		    </div>
 
 
-		<?php include("footer.php"); ?>
+		<?php include("../footer.php"); ?>
 
 	</body>
 </html>

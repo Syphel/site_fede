@@ -5,6 +5,7 @@
 					<a href="">La Fédérale</a>
 					<ul class="dropdown-content">
 						<li><a href="#">Qui sommes-nous ?</a></li>
+						<li><a href="">Organismes</a></li>
 						<li><a href="#">Carte Fédé</a></li>
 						<li><a href="#">Statuts</a></li>
 						<li><a href="#">PV réunions</a></li>
@@ -36,7 +37,7 @@
 						<li><a href="#">Les Sports</a></li>
 					</ul>
 				</li>
-				<li class="dropdown" href="#">
+				<!-- <li class="dropdown" href="#">
 					<a href="">Organismes</a>
 					<ul class="dropdown-content">
 						<li><a href="#">Commission Historique</a></li>
@@ -47,7 +48,7 @@
 						<li><a href="#">PIMs</a></li>
 						<li><a href="#">Revue des Mines</a></li>
 					</ul>
-				</li>
+				</li> -->
 				<li class="dropdown" href="#">
 					<a href="">Activités</a>
 					<ul class="dropdown-content">
@@ -56,7 +57,7 @@
 						<li><a href="#">Sport</a></li>
 					</ul>
 				</li>
-				<li class="dropdown" href="#">
+				<!-- <li class="dropdown" href="#">
 					<a href="">Locaux</a>
 					<ul class="dropdown-content">
 						<li><a href="#">Bar</a></li>
@@ -69,9 +70,9 @@
 						<li><a href="#">Salle de sport</a></li>
 						<li><a href="#">Scientifique</a></li>
 					</ul>
-				</li>
+				</li> -->
 				<li><a href="#">Calendrier</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 			
 			<!--<div class="search-area">

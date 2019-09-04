@@ -15,6 +15,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   		<script language="javascript" type="text/javascript" src="assets/js/functions.js"></script>
+
+		  
+		
+		<link rel="shortcut icon" type="image/png" href="../../assets/img/favicon/favico.png"/>
+
+
 	</head>
 
 	<body>

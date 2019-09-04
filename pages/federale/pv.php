@@ -30,6 +30,9 @@
 			<div class="container">			
 				<div class="page-header">
 					<h1>Upload PV de réunion </h1>
+					<h2 >seul le comité fédé et la commission web voient l'outil d'upload</h2>
+					<h2 >RESPECTE LE FORMAT (S'il te plaît) : <strong style="color:red;font-style: bold;">AA_MM_JJ</strong> pour le nom du fichier , exemple <strong style="color:red;font-style: bold;">19_02_21.pdf</strong> afin d'éviter les <strong style="color:red;font-style: bold;">DOUBLONS</strong> et qu'ils soient dans <strong style="color:red;font-style: bold;">l'ORDRE</strong>! </h2>
+					<h2 >tu peux en upload plusieurs à la fois </h2>
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-body">
@@ -37,9 +40,9 @@
 							<div class="form-group">
 								<label for="exampleInputFile">Select files to upload:</label>
 								<input type="file" id="exampleInputFile" name="files[]" multiple="multiple">
-								<p class="help-block"><span class="label label-info">Note:</span> Please, Select the only images (.jpg, .jpeg, .png, .gif) to upload with the size of 100KB only.</p>
+								<p class="help-block"><span class="label label-info">Note:</span> Please, select pdf files</p>
 							</div>			
-							<button type="submit" class="btn btn-primary" name="btnSubmit" >Start Upload</button>
+							<button type="submit" class="btn btn-primary" name="btnSubmit" >Upload</button>
 						</form>
 						<br/>
 						<label for="Progressbar">Progress:</label>
@@ -117,7 +120,7 @@
 						else
 						{
 					?>
-						<p>There are no images uploaded to display.</p>
+						<p>Il n'y a pas de PV enregistré</p>
 					<?php
 						}
 					?>					

@@ -20,7 +20,11 @@
 
         <li class="networkBarElement" > <a class="networkBarAnchor" target="_blank" href="https://polytech-mons-alumni.be/accueil/"> AIMs</a></li>
 
-        <li class="networkBarElement" style="float:right; padding-right: 4rem;" > <a class="networkBarAnchor"  target="_blank" href="https://www.facebook.com/groups/12209585370/"> Facebook</a>  </li>
+        <li class="networkBarElement" > <a class="networkBarAnchor" target="_blank" href="https://www.facebook.com/groups/12209585370/"> Facebook</a></li>
+
+        <li class="networkBarElement" style="float:right; padding-right: 4rem;" > <a class="networkBarAnchor"  target="_blank" href="../users/inscription.php"> Inscription</a>  </li>
+
+        <li class="networkBarElement" style="float:right; padding-right: 4rem;" > <a class="networkBarAnchor"  target="_blank" href="../users/connexion.php"> Connexion</a>  </li>
         
         <!--<li class="networkBarElement2" style="list-style-type: none; padding-top: 1.2rem;"> <a href="https://www.facebook.com/groups/12209585370/" target="_blank" class="fa fa-facebook"></a>  </li>
         -->

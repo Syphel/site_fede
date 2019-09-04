@@ -36,8 +36,8 @@
 				<h1>Bienvenue sur le site Fédé</h1>
 			</div>
 			<div class="header-btn-area">
-				<a class="header-btn" href="#">Connexion</a>
-				<a class="header-btn" href="#">Inscription</a>
+				<a class="header-btn" href="../users/connexion.php">Connexion</a>
+				<a class="header-btn" href="../users/inscription.php">Inscription</a>
 			</div>	
 		</div>	
 

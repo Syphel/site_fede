@@ -1,41 +1,42 @@
-
+		<?php include("../../model/dao/connexionDAO.php"); ?>
+		<?php include("../../controller/getConnexionData.php"); ?>
 		<nav>
 			<ul>
-				<li><a class="active" href="index.php">Accueil</a></li>
+				<li><a class="active" href="../index/index.php">Accueil</a></li>
 				<li class="dropdown" href="">
-					<a href="apropos.php">La Fédérale</a>
+					<a href="../federale/apropos.php">La Fédérale</a>
 					<ul class="dropdown-content">
-						<li><a href="apropos.php">Qui sommes-nous ?</a></li>
-						<li><a href="cartefede.php">Carte Fédé</a></li>
-						<li><a href="statuts.php">Statuts</a></li>
-						<li><a href="pv.php">PV réunions</a></li>
-						<li><a href="organismes.php">Organismes</a></li>
+						<li><a href="../federale/apropos.php">Qui sommes-nous ?</a></li>
+						<li><a href="../federale/carte.php">Carte Fédé</a></li>
+						<li><a href="../federale/statuts.php">Statuts</a></li>
+						<li><a href="../federale/pv.php">PV réunions</a></li>
+						<li><a href="../federale/organismes.php">Organismes</a></li>
 					</ul>
 				</li>
 				<li class="dropdown" href="#">
-					<a href="">Folklore</a>
+					<a href="../folklore/fetes.php">Folklore</a>
 					<ul class="dropdown-content">
-						<li><a href="fetes.php">Les Fêtes</a></li>
-						<li><a href="regionales.php">Régionales</a></li>
-						<li><a href="bleusaille.php">Bleusaille</a></li>
-						<li><a href="chants.php">Chants</a></li>
+						<li><a href="../folklore/fetes.php">Les Fêtes</a></li>
+						<li><a href="../folklore/regionales.php">Régionales</a></li>
+						<li><a href="../folklore/bleusaille.php">Bleusaille</a></li>
+						<li><a href="../folklore/chants.php">Chants</a></li>
 					</ul>
 				</li>
 				<li class="dropdown" href="#">
-					<a href="">Cercles</a>
+					<a href="../cercles/indexcercles.php">Cercles</a>
 					<ul class="dropdown-content">
-						<li><a href="cercles/bar.php">Le Bar Polytech</a></li>
-						<li><a href="cercles/cap.php">La C.A.P.</a></li>
-						<li><a href="cercles/cpv.php">Le C.P.V.</a></li>
-						<li><a href="cercles/culture.php">Le Cercle Culturel</a></li>
-						<li><a href="cercles/magellan.php">Le Magellan</a></li>
-						<li><a href="cercles/mm.php">Le Mons-Mines</a></li>
-						<li><a href="cercles/mutu.php">La Mutu</a></li>
-						<li><a href="cercles/peyresq.php">Peyresq</a></li>
-						<li><a href="cercles/radio.php">Radio Extra</a></li>
-						<li><a href="cercles/scientifique.php">Le Scientifique</a></li>
-						<li><a href="cercles/sdm.php">Sono-Danse-Musique</a></li>
-						<li><a href="cercles/sports.php">Les Sports</a></li>
+						<li><a href="../cercles/bar.php">Le Bar Polytech</a></li>
+						<li><a href="../cercles/cap.php">La C.A.P.</a></li>
+						<li><a href="../cercles/cpv.php">Le C.P.V.</a></li>
+						<li><a href="../cercles/culture.php">Le Cercle Culturel</a></li>
+						<li><a href="../cercles/magellan.php">Le Magellan</a></li>
+						<li><a href="../cercles/mm.php">Le Mons-Mines</a></li>
+						<li><a href="../cercles/mutu.php">La Mutu</a></li>
+						<li><a href="../cercles/peyresq.php">Peyresq</a></li>
+						<li><a href="../cercles/radio.php">Radio Extra</a></li>
+						<li><a href="../cercles/scientifique.php">Le Scientifique</a></li>
+						<li><a href="../cercles/sdm.php">Sono-Danse-Musique</a></li>
+						<li><a href="../cercles/sports.php">Les Sports</a></li>
 					</ul>
 				</li>
 				<!--<li class="dropdown" href="#">
@@ -50,12 +51,12 @@
 						<li><a href="#">Revue des Mines</a></li>
 					</ul>
 				</li>-->
-				<li class="dropdown" href="#">
-					<a href="">Activités</a>
+				<li class="dropdown" >
+					<a >Activités</a>
 					<ul class="dropdown-content">
-						<li><a href="culture.php">Culture</a></li>
-						<li><a href="festivites.php">Festivités</a></li>
-						<li><a href="sports.php">Sport</a></li>
+						<li><a href="../activites/culture.php">Culture</a></li>
+						<li><a href="../activites/festivites.php">Festivités</a></li>
+						<li><a href="../activites/sports.php">Sport</a></li>
 					</ul>
 				</li>
 				<!-- <li class="dropdown" href="#">
@@ -73,7 +74,7 @@
 					</ul>
 				</li>
 				 -->
-				<li><a href="#">Contact</a></li>
+				<li><a href="../contact/contact.php">Contact</a></li>
 			</ul>
 			
 			<!--<div class="search-area">

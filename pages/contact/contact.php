@@ -9,7 +9,7 @@
 		<link rel="shortcut icon" type="image/icon" href="#"/>
 
 		<!-- MAIN STYLE -->
-		<link href="style.css" rel="stylesheet">
+		<link href="../style.css" rel="stylesheet">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,15 +18,14 @@
 	</head>
 
 	<body>
-		<?php include("../model/dao/connexionDAO.php"); ?>
-        <?php include("../controller/getConnexionData.php"); ?>
-		<?php include("network.php"); ?>
+		
+		<?php include("../network.php"); ?>
 
 		<!-- SCROLL TOP BUTTON ? (Rex) -->
 
 		
 
-		<?php include("navbar.php"); ?>
+		<?php include("../navbar.php"); ?>
 
 
 
@@ -137,7 +136,7 @@
 
 
 
-		<?php include("footer.php"); ?>
+		<?php include("../footer.php"); ?>
 
 	</body>
 </html>

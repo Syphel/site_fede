@@ -9,12 +9,13 @@
 		<link rel="shortcut icon" type="image/icon" href="#"/>
 
 		<!-- MAIN STYLE -->
-		<link href="style.css" rel="stylesheet">
+		<link href="../style.css" rel="stylesheet">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   		<script language="javascript" type="text/javascript" src="assets/js/functions.js"></script>
+
 	</head>
 
 	<body>
@@ -30,8 +31,8 @@
 
 		   		<?php
 
-		   		include (".../model/dao/cercleDAO.php");
-		   		$cercle=selectByName($bdd,'bar');
+		   		include ("../../model/dao/cercleDAO.php");
+		   		$cercle=selectByName($bdd,'Fédérale');
 
 				?>
 

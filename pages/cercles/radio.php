@@ -32,7 +32,7 @@
 		   		<?php
 
 		   		include ("../../model/dao/cercleDAO.php");
-		   		$cercle=selectByName($bdd,'Fédérale');
+		   		$cercle=selectByName($bdd,'cercle Radio extra');
 
 				?>
 

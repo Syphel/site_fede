@@ -19,28 +19,43 @@
 
 	<body>
 		
-		<?php include("pages/network.php"); ?>
+		<?php include("network.php"); ?>
 
 		<!-- SCROLL TOP BUTTON ? (Rex) -->
 
-		<!-- HEADER -->
-
-		<div class="header-container">
-			<img src="./assets/img/houdain9.jpg" alt="img">
-			<div class="header-text">
-				<h1>Bienvenue sur le site Fédé</h1>
-			</div>
-			<div class="header-btn-area">
-				<a class="header-btn" href="#">Connexion</a>
-				<a class="header-btn" href="#">Inscription</a>
-			</div>	
-		</div>	
-
-		<?php include("pages/navbar.php"); ?>
+		<?php include("navbar.php"); ?>
 
 
+		<div class="container"> 
 
-		<?php include("pages/footer.php"); ?>
+		   		<?php
+
+		   		include ("../model/dao/cercleDAO.php");
+		   		$cercle=selectByName($bdd,'Fédérale');
+
+				?>
+
+				<div class="margintop marginbottom" >
+
+							
+
+					<p>
+			   			<?php echo $cercle['description_cercle']; ?> <br>
+			   			<br> 
+
+			   		<div align="center">
+			   			<img class= "center" src="<?php echo $cercle['logo_cercle'] ?> ">
+			   		</div>
+
+			  		</p>
+
+				</div>
+
+				
+		    </div>
+
+
+		<?php include("footer.php"); ?>
 
 	</body>
 </html>

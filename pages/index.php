@@ -26,7 +26,7 @@
 		<!-- HEADER -->
 
 		<div class="header-container">
-			<img src="assets/img/houdain9.jpg" alt="img">
+			<img src="../assets/img/houdain9.jpg" alt="img">
 			<div class="header-text">
 				<h1>Bienvenue sur le site Fédé</h1>
 			</div>

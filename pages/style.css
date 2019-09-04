@@ -301,3 +301,22 @@ nav a.active{
 
 
 }
+
+
+
+/*--------------------*/
+/* FOOTER */
+/*--------------------*/
+
+.footerli {
+	text-align: center;
+
+
+}
+
+.footera,
+.footera:hover, 
+.footera:visited {
+	color:black;+
+	text-decoration: none;
+}

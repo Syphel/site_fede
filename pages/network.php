@@ -18,8 +18,6 @@
 
         <li class="networkBarElement" > <a class="networkBarAnchor" target="_blank" href="https://magellan.fpms.ac.be/"> Magellan</a></li>
 
-        <li class="networkBarElement" > <a class="networkBarAnchor"  target="_blank" href="http://portail.umons.ac.be/FR/Pages/default.aspx"> UMons</a>  </li>
-        
         <li class="networkBarElement" > <a class="networkBarAnchor" target="_blank" href="https://polytech-mons-alumni.be/accueil/"> AIMs</a></li>
 
         <li class="networkBarElement" style="float:right; padding-right: 4rem;" > <a class="networkBarAnchor"  target="_blank" href="https://www.facebook.com/groups/12209585370/"> Facebook</a>  </li>

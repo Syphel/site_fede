@@ -23,18 +23,7 @@
 
 		<!-- SCROLL TOP BUTTON ? (Rex) -->
 
-		<!-- HEADER -->
-
-		<div class="header-container">
-			<img src="assets/img/houdain9.jpg" alt="img">
-			<div class="header-text">
-				<h1>Bienvenue sur le site Fédé</h1>
-			</div>
-			<div class="header-btn-area">
-				<a class="header-btn" href="#">Connexion</a>
-				<a class="header-btn" href="#">Inscription</a>
-			</div>	
-		</div>	
+		
 
 		<?php include("navbar.php"); ?>
 

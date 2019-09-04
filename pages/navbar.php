@@ -1,5 +1,4 @@
-		<?php include("../../model/dao/connexionDAO.php"); ?>
-		<?php include("../../controller/getConnexionData.php"); ?>
+
 		<nav>
 			<ul>
 				<li><a class="active" href="../index/index.php">Accueil</a></li>

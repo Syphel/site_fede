@@ -16,8 +16,6 @@
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   		<script language="javascript" type="text/javascript" src="assets/js/functions.js"></script>
 
-		  
-		
 		<link rel="shortcut icon" type="image/png" href="../../assets/img/favicon/favico.png"/>
 
 
@@ -36,6 +34,7 @@
 				<h1>Bienvenue sur le site Fédé</h1>
 			</div>
 			<div class="header-btn-area">
+				<li class="networkBarElement" style="float:right; padding-right: 4rem;"><a class="networkBarAnchor" href="#"   id="openOverlay2"> <span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>
 				<a class="header-btn" href="../users/connexion.php">Connexion</a>
 				<a class="header-btn" href="../users/inscription.php">Inscription</a>
 			</div>	

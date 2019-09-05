@@ -33,9 +33,9 @@
 
          if(isset($_SESSION['id_utilisateur'])){ // On ferme l'accolade à la fin du code
 
-             echo '<li><a href="deconnexion.php"> <span class="glyphicon glyphicon-log-out"></span> Déconnexion</a></li>';
+             echo '<liclass="networkBarElement" style="float:right; padding-right: 4rem;"><a href="../users/deconnexion.php"> <span class="glyphicon glyphicon-log-out"></span> Déconnexion</a></li>';
                             
-             ?><li><a href="profil.php?id_utilisateur= <?php echo $_SESSION["id_utilisateur"]; ?> "> <span class="glyphicon glyphicon-user" ></span> Profil</a></li> <?php
+             ?><liclass="networkBarElement" style="float:right; padding-right: 4rem;"><a href= "profil.php?id_utilisateur= <?php echo $_SESSION["id_utilisateur"]; ?> "> <span class="glyphicon glyphicon-user" ></span> Profil</a></li> <?php
         }
                                  
         else{

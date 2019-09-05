@@ -167,19 +167,21 @@ body{
 /* NAVBAR */
 /*--------------------*/
 
-nav{
+#nav{
+	position: sticky;
+	z-index: 99999;
+	padding-bottom: 0px;
+	min-height: 0px;
 	width: 100%;
 	margin: 0 auto;
-	background-color: #F7F7F7;
-	position: sticky;
 	top: 0px;
-	padding: 0px;
 }
 
 nav ul{
 	list-style-type: none;
 	padding-left: 0;
 	position: relative;/**/
+	margin: 0 ;
 }
 
 nav ul li{

@@ -25,6 +25,7 @@
             </p>   
 
             <?php
+
             if(isset($erreur))
             {
                 echo $erreur;
@@ -33,9 +34,8 @@
             <br />
             <br />
             <a href='../users/inscription.php' id="lieninscri">Pas encore inscrit ? N'attendez plus !</a>
-
+            
         </form>
-
     </div>
 
 </div>

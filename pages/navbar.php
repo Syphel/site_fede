@@ -51,7 +51,7 @@
 					</ul>
 				</li>-->
 				<li class="dropdown" >
-					<a >Activités</a>
+					<a href="#">Activités</a>
 					<ul class="dropdown-content">
 						<li><a href="../activites/culture.php">Culture</a></li>
 						<li><a href="../activites/festivites.php">Festivités</a></li>

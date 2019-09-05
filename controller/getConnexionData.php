@@ -1,5 +1,4 @@
 <?php 
-
 if(isset($_POST['formco'])){
     $pseudoco = htmlspecialchars($_POST['pseudoco']);
     $passco = sha1($_POST['passco']);
@@ -42,5 +41,7 @@ if(isset($_POST['formco'])){
     }
 
 }
+
+
 
 ?>

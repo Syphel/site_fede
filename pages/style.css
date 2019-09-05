@@ -1,3 +1,7 @@
+body{
+	font-family: Calibri;
+	margin: 0 auto;
+}
 
 /*--------------------*/
 /* NETWORK */
@@ -175,6 +179,7 @@ nav{
 nav ul{
 	list-style-type: none;
 	padding-left: 0;
+	position: relative;/**/
 }
 
 nav ul li{
@@ -218,7 +223,7 @@ nav a:hover{
 	background-color: #F7F7F7;
 	position: absolute;
 	width: 100%;
-	z-index: 1000;
+	z-index: 99999;
 }
 
 nav > ul li:hover .dropdown-content{
@@ -230,11 +235,14 @@ nav > ul li:hover .dropdown-content{
 	width: 100%;	
 	float: none;
 	text-align: left;
+	position: relative;
+	z-index: 99999;
 }
 
 .dropdown-content a{
 	padding: 0.5vw;
 	border-bottom: none;
+	text-transform: none;
 }
 
 .dropdown-content a:hover{
@@ -319,27 +327,24 @@ nav a.active{
 /* CONTENT */
 /*--------------------*/
 
-.title-area {
-	display: inline;
-	float: left;
-	padding: 2vw 10vw;
-	position: relative;
-	text-align: center;
-	width: 100%;
+
+/*--------------------*/
+/* CAROUSSEL */
+/*--------------------*/
+
+.carousel-inner img{
+	width:100%;
+	z-index: 1;
+	position: none;
 }
-.tittle {
-	color: black;
-	font-size: 40px;
-	margin-bottom: 0;
-	padding-bottom: 18px;
+
+#myCarousel{
+	margin-bottom: 15vw;
+	z-index: 1;
+	position: none;
+	overflow: hidden;
 }
-.tittle-line {
-	background-color: black;
-	display: inline-block;
-	height: 0.2vw;
-	margin-bottom: 16px;
-	width: 17.6vw;
-}
+
 
 #contact{
 

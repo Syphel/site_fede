@@ -169,11 +169,12 @@ body{
 
 #nav{
 	position: sticky;
-	z-index: 99999;
+	z-index: 10;
 	padding-bottom: 0px;
 	min-height: 0px;
 	width: 100%;
 	margin: 0 auto;
+	margin-bottom: 4.5vw;
 	top: 0px;
 	border: #f8f8f8;
 }
@@ -223,7 +224,7 @@ nav a:hover{
 .dropdown-content{
 	display: none;
 	box-shadow: 0px 1px 2px #CCC;
-	background-color: #F7F7F7;
+	background-color: #F8F8F8;
 	position: absolute;
 	width: 100%;
 	z-index: 99999;
@@ -331,28 +332,49 @@ nav a.active{
 /*--------------------*/
 
 
+.title-area {
+	display: inline;
+	float: left;
+	padding: 0 2vw;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.title {
+	color: #3a3a3a;
+	font-size: 3.5vw;
+	margin-bottom: 0;
+	padding-bottom: 1vw;
+	text-align: center;
+}
+.title-line {
+	background-color: black;
+	display: inline-block;
+	height: 0.176vw;
+	margin-bottom: 0.5vw;
+	width: 22vw;
+}
+
 /*--------------------*/
 /* CAROUSSEL */
 /*--------------------*/
 
 .carousel-inner img{
 	width:100%;
-	z-index: 1;
-	position: none;
 }
 
 #myCarousel{
 	margin-bottom: 15vw;
-	z-index: 1;
-	position: none;
-	overflow: hidden;
+	padding: 2vw;
+	position: relative;
+	float: left;
 }
 
-
-#contact{
-
-
+.carousel-control{
+	top: 4vw;
+	margin: 2vw; /*Mettre le même que le padding du #myCarousel*/
 }
+
 
 
 

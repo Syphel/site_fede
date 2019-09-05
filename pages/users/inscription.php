@@ -1,4 +1,9 @@
 
+<!--Formulaire d'inscription-->
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -105,8 +110,11 @@
 							<br />
 						</p>
 					</form>
+
+
 					<?php 
 					//connexion à la BDD
+
 					
 					//Vérification des données 
 					if(isset($_POST['forminscription']))
@@ -148,10 +156,13 @@
 										if($pseudoexist == 0)
 										{
 											if($mdp == $mdp2)
-											{
+											{	echo"ici";
 												//Pour rentrer les données dans la BDD et les afficher
+
 												$req = $bdd -> prepare('INSERT INTO utilisateur(prenom_utilisateur, nom_utilisateur, sexe_utilisateur, date_naissance_utilisateur, email_utilisateur, pseudo_utilisateur, password_utilisateur, spam_utilisateur,promotion_utilisateur) VALUES(?,?,?,?,?,?,?,?,?)');
+												echo"ici";
 												$req->execute(array($prenom,$nom,$sexe,$date,$mail,$pseudo,$mdp,$spam,$promotion));
+												echo"ici";
 												//On crée une variable de session 
 												//$_SESSION['comptecree'] = '<p class="reussi">Votre compte a bien été créé !</p>'; 
 												

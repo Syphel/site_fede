@@ -1,5 +1,5 @@
 
-		<nav>
+		<nav class="navbar navbar-default">
 			<ul>
 				<li><a class="active" href="../index/index.php">Accueil</a></li>
 				<li class="dropdown" href="">

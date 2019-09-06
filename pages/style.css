@@ -64,19 +64,19 @@ body{
     z-index: 6 ;
 }
 
-.connexionformulaire p {
+.popupconnexionformulaire p {
     text-align: center;
 }
 
 
-.connexionh2
+.popupconnexionh2
 {
     font-weight: bold;
     font-size : 35px;
     text-align : center;
 }
 
-.connexionchamp
+.popupconnexionchamp
 {
     background-color: black;
     color: grey;

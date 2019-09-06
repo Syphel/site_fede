@@ -39,10 +39,38 @@ session_start();
 			<img src="../../assets/img/houdain9.jpg" alt="img">
 			<div class="header-text">
 				<h1>Bienvenue sur le site Fédé</h1>
+
+				<?php 
+
+        	if(isset($_SESSION['id_utilisateur'])){ // On ferme l'accolade à la fin du code
+
+            	?>  <div class="header-text" style="margin-top: 5rem;"> 
+            		<h1> <?php echo $_SESSION["pseudo_utilisateur"]; ?> </h1>
+					</div>';
+
+				<?php
+             }
+
+             ?>
 			</div>
 			<div class="header-btn-area">
-				<a class="header-btn" href="../users/connexion.php">Connexion</a>
-				<a class="header-btn" href="../users/inscription.php">Inscription</a>
+
+
+
+			<?php 
+
+        	if(isset($_SESSION['id_utilisateur'])){ // On ferme l'accolade à la fin du code
+
+             }
+                                 
+        	else{
+
+            	echo '<a class="header-btn" href="../users/connexion.php">Connexion</a>
+            	<a class="header-btn" href="../users/inscription.php">Inscription</a>';
+          	}
+
+        	?>
+	
 			</div>	
 		</div>	
 

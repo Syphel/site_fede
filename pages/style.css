@@ -174,7 +174,6 @@
 	min-height: 0px;
 	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 3vw;
 	top: 0px;
 	border: #f8f8f8;
     box-shadow: 1vw 0px 1vw black;
@@ -345,24 +344,57 @@ nav a.active{
 .title-area {
 	display: inline;
 	float: left;
-	padding: 0 2vw;
+	padding: 2vw 2vw;
 	position: relative;
 	text-align: center;
 	width: 100%;
+	margin-bottom: 0.176vw
 }
 .title {
-	color: #3a3a3a;
+	color: black;
 	font-size: 3.5vw;
 	margin-bottom: 0;
-	padding-bottom: 1vw;
+	padding-bottom: 0.3vw;
 	text-align: center;
 }
 .title-line {
 	background-color: black;
 	display: inline-block;
 	height: 0.176vw;
-	margin-bottom: 0.5vw;
+	margin-bottom: 0.3vw;
 	width: 22vw;
+}
+
+.bg1{
+	background-color: #f8f5ef;
+	width: 100%;
+}
+
+.bg2{
+	background-color: #EBFFFF;
+	width: 100%;
+}
+
+#content{
+	padding: 1.76vw;
+	background-color: #f8f5ef;
+}
+
+.text{
+	font-size: 1.3vw;
+	text-align: justify;
+	margin-bottom: 1.1vw;
+}
+
+.list{
+	list-style-type: circle;
+	font-size: 1.3vw;
+	text-align: justify;
+	margin-bottom: 1.1vw;
+}
+
+.list li{
+	margin-bottom: 0.5vw;
 }
 
 /*--------------------*/
@@ -375,6 +407,7 @@ nav a.active{
 
 #myCarousel{
 	margin-bottom: 15vw;
+	padding-top: 30vw;
 	padding: 2vw;
 	position: relative;
 	float: left;

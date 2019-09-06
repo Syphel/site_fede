@@ -1,0 +1,45 @@
+.img1{
+	float:right;
+	width: 60%;
+	margin-left: 2vw;
+	height: auto;
+}
+
+.img2{
+	float: left;
+	width: 60%;
+	margin-right: 2vw;
+	height: auto;
+}
+
+.title-line2 {
+	background-color: black;
+	display: inline-block;
+	height: 0.176vw;
+	margin-bottom: 0.3vw;
+	width: 8vw;
+}
+
+.title2 {
+	color: black;
+	font-size: 3vw;
+	margin-bottom: 0;
+	padding-bottom: 0.3vw;
+	text-align: center;
+}
+
+.title-line3 {
+	background-color: black;
+	display: inline-block;
+	height: 0.176vw;
+	margin-bottom: 0.3vw;
+	width: 17.6vw;
+}
+
+.title-line4 {
+	background-color: black;
+	display: inline-block;
+	height: 0.176vw;
+	margin-bottom: 0.3vw;
+	width: 26vw;
+}

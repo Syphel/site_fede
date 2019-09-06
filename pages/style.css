@@ -1,4 +1,4 @@
-body{
+#body{
 	font-family: Calibri;
 	margin: 0 auto;
 }
@@ -11,6 +11,7 @@ body{
 	background-color: black;
 	padding:none;
 	margin:none;
+	font-family: Calibri;
 }
 
 .networkBar a{	
@@ -174,9 +175,9 @@ body{
 	min-height: 0px;
 	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 4.5vw;
 	top: 0px;
 	border: #f8f8f8;
+    box-shadow: 1vw 0px 1vw black;
 }
 
 nav ul{
@@ -259,6 +260,15 @@ nav > ul li:hover .dropdown-content{
 	font-size: 0.76vw;
 }
 
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
 nav a.active{
 	background-color: #1BB4B4;
 	color: white;
@@ -335,24 +345,67 @@ nav a.active{
 .title-area {
 	display: inline;
 	float: left;
-	padding: 0 2vw;
+	padding: 2vw 2vw;
 	position: relative;
 	text-align: center;
 	width: 100%;
+	margin-bottom: 0.176vw
 }
 .title {
-	color: #3a3a3a;
+	color: black;
 	font-size: 3.5vw;
 	margin-bottom: 0;
-	padding-bottom: 1vw;
+	padding-bottom: 0.3vw;
 	text-align: center;
 }
 .title-line {
 	background-color: black;
 	display: inline-block;
 	height: 0.176vw;
-	margin-bottom: 0.5vw;
+	margin-bottom: 0.3vw;
 	width: 22vw;
+}
+
+.bg1{
+	background-color: #f8f5ef;
+	width: 100%;
+}
+
+.bg2{
+	background-color: #EBFFFF;
+	width: 100%;
+}
+
+#content{
+	background-color: #f8f5ef;
+}
+
+.text{
+	font-size: 1.3vw;
+	text-align: justify;
+	padding-bottom: 1.76vw;
+	margin-bottom: 0px;
+}
+
+.list{
+	list-style-type: circle;
+	font-size: 1.3vw;
+	text-align: justify;
+	margin-bottom: 1.1vw;
+}
+
+.list li{
+	margin-bottom: 0.5vw;
+}
+
+.subtitle{
+	color: black;
+	font-size: 1.76vw;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	padding-bottom: 0.3vw;
+	text-align: left;
+	font-weight: bold;
 }
 
 /*--------------------*/
@@ -365,6 +418,7 @@ nav a.active{
 
 #myCarousel{
 	margin-bottom: 15vw;
+	padding-top: 30vw;
 	padding: 2vw;
 	position: relative;
 	float: left;

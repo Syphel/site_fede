@@ -25,7 +25,7 @@ session_start();
 
 	</head>
 
-	<body>
+	<body id="body">
 		<?php include("../network.php"); ?>
 
 		<!-- SCROLL TOP BUTTON ? (Rex) -->
@@ -85,12 +85,29 @@ session_start();
 			    <span class="sr-only">Next</span>
 			</a>
 		</div>
-
-
+<button onclick="myFunction()">Try it</button>
+		<div id="myDIV">
+This is a DIV element.
+</div>
 
 
 		<?php include("../footer.php"); ?>
 
+		<script>
+			$('#nav ul li a').click( function(){
+			    if ( $(this).hasClass('active') ) {
+			        $(this).removeClass('active');
+			    } else {
+			        $('li a.active').removeClass('active');
+			        $(this).addClass('active');    
+			    }
+			});
+		</script>
+
 	</body>
+
+
+	
+
 </html>
 

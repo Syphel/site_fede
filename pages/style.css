@@ -1,4 +1,4 @@
-body{
+#body{
 	font-family: Calibri;
 	margin: 0 auto;
 }
@@ -174,9 +174,10 @@ body{
 	min-height: 0px;
 	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 4.5vw;
+	margin-bottom: 3vw;
 	top: 0px;
 	border: #f8f8f8;
+    box-shadow: 1vw 0px 1vw black;
 }
 
 nav ul{
@@ -257,6 +258,15 @@ nav > ul li:hover .dropdown-content{
 .dropdown > a::after{
 	content:" ▼";
 	font-size: 0.76vw;
+}
+
+.mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  box-sizing: border-box;
 }
 
 nav a.active{

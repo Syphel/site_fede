@@ -13,7 +13,7 @@
 					</ul>
 				</li>
 				<li class="dropdown" href="#">
-					<a href="../folklore/fetes.php">Folklore</a>
+					<a id="btn_nav" href="../folklore/fetes.php">Folklore</a>
 					<ul class="dropdown-content">
 						<li><a href="../folklore/fetes.php">Les Fêtes</a></li>
 						<li><a href="../folklore/regionales.php">Régionales</a></li>
@@ -83,3 +83,4 @@
 				</form>
 			</div>-->
 		</nav> 
+

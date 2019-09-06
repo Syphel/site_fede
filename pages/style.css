@@ -11,6 +11,7 @@
 	background-color: black;
 	padding:none;
 	margin:none;
+	font-family: Calibri;
 }
 
 .networkBar a{	
@@ -376,14 +377,14 @@ nav a.active{
 }
 
 #content{
-	padding: 1.76vw;
 	background-color: #f8f5ef;
 }
 
 .text{
 	font-size: 1.3vw;
 	text-align: justify;
-	margin-bottom: 1.1vw;
+	padding-bottom: 1.76vw;
+	margin-bottom: 0px;
 }
 
 .list{
@@ -395,6 +396,16 @@ nav a.active{
 
 .list li{
 	margin-bottom: 0.5vw;
+}
+
+.subtitle{
+	color: black;
+	font-size: 1.76vw;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	padding-bottom: 0.3vw;
+	text-align: left;
+	font-weight: bold;
 }
 
 /*--------------------*/

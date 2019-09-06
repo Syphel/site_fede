@@ -85,10 +85,6 @@ session_start();
 			    <span class="sr-only">Next</span>
 			</a>
 		</div>
-<button onclick="myFunction()">Try it</button>
-		<div id="myDIV">
-This is a DIV element.
-</div>
 
 
 		<?php include("../footer.php"); ?>

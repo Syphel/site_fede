@@ -22,7 +22,7 @@
 					</ul>
 				</li>
 				<li class="dropdown" href="#">
-					<a href="../cercles/indexcercles.php">Cercles</a>
+					<a href="../cercles/cercles.php">Cercles</a>
 					<ul class="dropdown-content">
 						<li><a href="../cercles/bar.php">Le Bar Polytech</a></li>
 						<li><a href="../cercles/cap.php">La C.A.P.</a></li>
